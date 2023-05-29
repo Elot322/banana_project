@@ -33,7 +33,7 @@ import Cases from "./components/Cases.vue";
 import Certs from "./components/Certs.vue";
 import Contacts from "./components/Contacts.vue";
 
-const cardsCase = ref<{}>([
+const cardsCase = ref<{link: string, text: string,}[]>([
   {
     link: 'google.com',
     text: 'TEXT'
@@ -50,7 +50,7 @@ const cardsCase = ref<{}>([
   },
 ])
 
-const cardsCerts = ref<{}>([
+const cardsCerts = ref<{link: string, text: string,}[]>([
   {
     link: '/featuretoday.pdf',
     text: 'FUTURE TODAY'
