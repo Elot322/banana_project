@@ -8,7 +8,12 @@
           Маркетинг & PR
         </h2>
       </div>
-      <div class="photo"></div>
+      <img
+          src="/photo.JPG"
+          alt="Надежда Батова"
+          width="150"
+          height="150"
+          class="photo"/>
   </div>
 </template>
 
@@ -26,10 +31,5 @@
   }
   .photo{
     border-radius: 100%;
-    height: 150px;
-    width: 150px;
-    background-color: red;
-    background-image: url('/photo.JPG');
-    background-size: cover;
   }
 </style>
