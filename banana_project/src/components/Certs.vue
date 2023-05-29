@@ -13,7 +13,6 @@
 </template>
 
 <script setup lang="ts">
-import {ref} from "vue";
 
 import CertCard from "./CertCard.vue";
 
