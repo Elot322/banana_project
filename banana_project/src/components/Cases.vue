@@ -26,14 +26,27 @@ const props = defineProps<{
 </script>
 
 <style scoped>
-.row-cases {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+@media (min-width:1200px) {
+  .row-cases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.card-container {
-  display: inline-block;
-  width: 200px;
+  .card-container {
+    display: inline-block;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+  .row-cases {
+    display: block;
+    justify-content: space-between;
+  }
+  .card-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 </style>

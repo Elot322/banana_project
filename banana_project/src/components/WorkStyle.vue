@@ -7,7 +7,7 @@
         <li><h3>Tilda, Elama, Trello</h3></li>
       </ul>
       <ul>
-        <li><h3>Yandex Metrika, Yandex Direct, Google Analitics, VK Ads</h3></li>
+        <li><h3>Yandex Metrika, Yandex Direct, VK Ads</h3></li>
         <li><h3>Excel, Word, Power Point</h3></li>
       </ul>
     </div>

@@ -35,29 +35,35 @@ import Contacts from "./components/Contacts.vue";
 
 const cardsCase = ref<{link: string, text: string,}[]>([
   {
-    link: 'google.com',
-    text: 'TEXT'
+    link: '/content.pdf',
+    text: 'CONTENT'
   },
-  {
-    link: 'https://instagram.com/zoy_brand?igshid=NTc4MTIwNjQ2YQ==',
-    text: 'SMM'
-  },  {
+ {
     link: 'designs.pdf',
     text: 'DESIGNS'
-  },  {
+  },
+  {
     link: 'google.com',
-    text: 'Events'
+    text: 'EVENTS'
   },
 ])
 
 const cardsCerts = ref<{link: string, text: string,}[]>([
   {
+    link: '/fin.pdf',
+    text: 'Калужский филиал ФГО БУ ВО Финансовый университет при Правительстве РФ'
+  },
+  {
+    link: '/mgeu.pdf',
+    text: 'Московский гуманитарно-экономический университет, Калужский институт'
+  },
+  {
     link: '/featuretoday.pdf',
-    text: 'FUTURE TODAY'
+    text: 'Future Today'
   },
   {
     link: '/canva.pdf',
-    text: 'CANVA'
+    text: 'Canva'
   },
 ])
 

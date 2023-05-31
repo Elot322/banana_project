@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Сертификаты:</h1>
+    <h1>Дипломы и сертификаты:</h1>
     <div
         v-for="(card, index) in props.cards" :key="index"
         class="container">

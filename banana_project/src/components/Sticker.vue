@@ -11,7 +11,7 @@
 import {onMounted, ref} from "vue";
 
 let i = 0
-const text = 'Привет! Меня зовут Надя и это мое портфолио. Ниже можешь ознакомиться с проектами над которыми я работала!'
+const text = 'Приветствую! Меня зовут Надя и это мое портфолио. Ниже можно ознакомиться с проектами над которыми я работала!'
 
 const typedText = ref('')
 const speed = 50;
@@ -39,6 +39,10 @@ onMounted(()=>{
     width: 300px;
     height: 300px;
   }
-
+  @media (min-width:320px) {
+    .text {
+      display: none;
+    }
+  }
 
 </style>
