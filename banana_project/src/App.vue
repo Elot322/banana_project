@@ -43,7 +43,7 @@ const cardsCase = ref<{link: string, text: string,}[]>([
     text: 'DESIGNS'
   },
   {
-    link: 'google.com',
+    link: '/events.pdf',
     text: 'EVENTS'
   },
 ])
